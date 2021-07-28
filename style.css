@@ -126,7 +126,7 @@ nav{
     color: grey;
 }
 .countdown{
-    box-shadow: 5px 7px 40px grey;
+    box-shadow: 5px 7px 70px grey;
     height: 200px;
     margin: 5%;
     border-radius: 20px;
@@ -153,9 +153,117 @@ nav{
 .footer-area h1 {
     text-align: center;
     color: white;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 .footer-area p{
     text-align: center;
     color: white;
+}
+.Choose-Us-section{
+    height: 350px;
+    border: 2px  tomato solid;
+    border-radius: 20px;
+   
+}
+.Choose-Us{
+    
+    font-size: 35px;
+    color: grey;
+}
+.Choose-Us h3{
+    text-align: center;
+    font-size: 35px;   
+}
+.Choose-Us p {
+    color: grey;
+}
+.choose-us-text{
+    height: 55%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+    width: 20%;
+    border-radius: 15px;
+    border: 1px grey solid;
+}
+.Contact-us{
+    height: 600px;
+    margin: 5%;
+}
+.Contact-us-text{
+    margin: 3%;
+    
+}
+.con-us-h1{
+    color: tomato;
+    font-size: 35px;
+    text-align: center;
+    margin: 1%;
+}
+.Contact-us-half{
+    float: left;
+    width: 35%;
+    margin: 2%;
+    padding: 1%;
+}
+.Contact-us-form{
+    border: none;
+    font-size: 16px;
+    height: 430px;
+    background: transparent;
+    border: 1px solid tomato;
+    border-radius: 0;
+    color: grey;
+    width: 50%;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+#fname{
+    border: none;
+    font-size: 16px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius:5px ;
+    width: 400px;
+    
+}
+#lname{
+    border: none;
+    font-size: 16px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius:5px ;
+    width: 400px;
+    
+}
+#email{
+    border: none;
+    font-size: 16px;
+    height: 45px;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius:5px ;
+    width: 400px;
+    
+}
+#massage{
+    border: none;
+    font-size: 16px;
+    height: 100px;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius:5px ;
+    width: 400px;
+    
+}
+.btn{
+    text-decoration: none;
+    background: linear-gradient(30deg, lightsalmon, tomato);
+    padding: 15px 40px;
+    border-radius: 10px;
+    border-color:white;
+    color: white;
+    font-weight: 700;
 }
